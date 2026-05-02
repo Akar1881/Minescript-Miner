@@ -5,6 +5,19 @@ Warps between routes, mines every target block it can reach, then loops forever.
 
 ---
 
+## Installation
+
+Requirements:
+
+* Python 3.9+
+* [`minescript`](https://github.com/maxuser0/minescript.git)
+* [NumPy](https://numpy.org/)
+* [Numba](https://numba.pydata.org/)
+
+```bash
+pip install --force-reinstall numba==0.61.2 llvmlite==0.44.0 numpy==2.2.6
+```
+
 ## Controls
 
 | Key | Action |
